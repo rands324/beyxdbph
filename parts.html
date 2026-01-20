@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parts Database - Beyblade X</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="parts-body">
+
+    <nav class="top-nav">
+        <a href="index.html" class="nav-logo">BEYBLADE X PH</a>
+        <div class="nav-links">
+            <a href="news.html" class="nav-item">NEWS</a>
+            <a href="tournaments.html" class="nav-item">TOURNAMENTS</a>
+            <a href="meta.html" class="nav-item">META DATA</a>
+            <a href="parts.html" class="nav-item">DATABASE</a>
+            <a href="builder.html" class="nav-item">BUILDER</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="glow-text-blue">BEYBLADE X DATABASE</h1>
+            <div class="accessory-section-separator"><span>PARTS</span></div>
+            <div class="parts-grid">
+                <a href="blades.html" class="part-card blade-card">
+                    <div class="card-icon">⚡</div>
+                    <h2>BLADES</h2>
+                </a>
+                <a href="ratchets.html" class="part-card ratchet-card">
+                    <div class="card-icon">⚙️</div>
+                    <h2>RATCHETS</h2>
+                </a>
+                <a href="bits.html" class="part-card bit-card">
+                    <div class="card-icon">💎</div>
+                    <h2>BITS</h2>
+                </a>
+            </div>
+
+            <div class="cx-section">
+                <div class="cx-section-separator"><span>CX LINE PARTS</span></div>
+                <div class="cx-grid">
+                    <a href="assist-blades.html" class="part-card assist-card">
+                        <div class="card-icon">🛡️</div>
+                        <h2>ASSIST BLADES</h2>
+                    </a>
+                    <a href="lock-chips.html" class="part-card lock-card">
+                        <div class="card-icon">🔒</div>
+                        <h2>LOCK CHIPS</h2>
+                    </a>
+                </div>
+            </div>
+
+            <div class="accessory-section">
+                <div class="accessory-section-separator"><span>GEARS & STADIUMS</span></div>
+                <div class="parts-grid">
+                    <a href="stadiums.html" class="part-card stadium-card">
+                        <div class="card-icon">🏟️</div>
+                        <h2>STADIUMS</h2>
+                    </a>
+                    <a href="launchers.html" class="part-card launcher-card">
+                        <div class="card-icon">🚀</div>
+                        <h2>LAUNCHERS</h2>
+                    </a>
+                    <a href="accessories.html" class="part-card launcher-card">
+                        <div class="card-icon">🚀</div>
+                        <h2>ACCESSORIES</h2>
+                    </a>
+                </div>
+            </div>
+            
+        <div class="full-bey-section">
+            <h1 class="glow-text-blue" style="font-size: 1.5rem; margin-top: 100px; text-align: center;">RELEASES</h1>
+                
+            <!--<div class="filter-system">
+                <button class="filter-btn active" onclick="filterType('all')">ALL</button>
+                <button class="filter-btn" onclick="filterType('BX')">BX</button>
+                <button class="filter-btn" onclick="filterType('UX')">UX</button>
+                <button class="filter-btn" onclick="filterType('Limited')">LIMITED (BX-00)</button>
+            </div>-->
+
+            <div class="search-container">
+                <input type="text" id="bladeSearch" placeholder="Search Beyblade Name..." onkeyup="filterBeys()">
+                
+                <div id="searchResults" class="bey-list" style="margin-top: 20px; border-bottom: 1px solid #333; padding-bottom: 20px;"></div>
+            </div>
+
+            <div class="bx-line-separator"><span>BX RELEASES</span></div>
+            <div class="bey-list">
+                <a href="dran-sword-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran-Sword">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-sword-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-01</span>
+                        <h3 class="bey-name long-name">Dran Sword</h3>
+                        <p class="bey-parts">3-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="hells-scythe-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Hells Scythe">
+                        <div class="bey-img-box">
+                            <img src="images/full/hells-scythe-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-02</span>
+                        <h3 class="bey-name long-name">Hells Scythe</h3>
+                        <p class="bey-parts">4-60 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-arrow-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wizard Arrow">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-arrow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-03</span>
+                        <h3 class="bey-name long-name">Wizard Arrow</h3>
+                        <p class="bey-parts">4-80 Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="knight-shield-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Shield">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-shield-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-04</span>
+                        <h3 class="bey-name long-name">Knight Shield</h3>
+                        <p class="bey-parts">3-80 Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-arrow-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wizard Arrow">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-arrow-red-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-05</span>
+                        <h3 class="bey-name long-name">Wizard Arrow</h3>
+                        <p class="bey-parts">4-80 Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="knight-shield-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Shield">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-shield-blue-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-06</span>
+                        <h3 class="bey-name long-name">Knight Shield</h3>
+                        <p class="bey-parts">3-80 Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dran-sword-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran Sword">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-sword-special-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-07</span>
+                        <h3 class="bey-name long-name">Dran Sword</h3>
+                        <p class="bey-parts">3-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="hells-scythe-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Hells Scythe">
+                        <div class="bey-img-box">
+                            <img src="images/full/hells-scythe-yellow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-08</span>
+                        <h3 class="bey-name long-name">Hells Scythe</h3>
+                        <p class="bey-parts">3-80 Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-arrow-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wizard Arrow">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-arrow-green-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-08</span>
+                        <h3 class="bey-name long-name">Wizard Arrow</h3>
+                        <p class="bey-parts">4-60 Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="knight-shield-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Shield">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-shield-red-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-08</span>
+                        <h3 class="bey-name long-name">Knight Shield</h3>
+                        <p class="bey-parts">4-80 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+                
+                <a href="knight-lance-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Lance">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-lance-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-13</span>
+                        <h3 class="bey-name long-name">Knight Lance</h3>
+                        <p class="bey-parts">4-80 High Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shark-edge-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shark Edge">
+                        <div class="bey-img-box">
+                            <img src="images/full/shark-edge-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-14 01</span>
+                        <h3 class="bey-name long-name">Shark Edge</h3>
+                        <p class="bey-parts">3-60 Low Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shark-edge-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shark Edge">
+                        <div class="bey-img-box">
+                            <img src="images/full/shark-edge-yellow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-14 02</span>
+                        <h3 class="bey-name long-name">Shark Edge</h3>
+                        <p class="bey-parts">4-80 Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dran-sword-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran Sword">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-sword-black-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-14 03</span>
+                        <h3 class="bey-name long-name">Dran Sword</h3>
+                        <p class="bey-parts">3-80 Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="hells-scythe-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Hells Scythe">
+                        <div class="bey-img-box">
+                            <img src="images/full/hells-scythe-green-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-14 04</span>
+                        <h3 class="bey-name long-name">Hells Scythe</h3>
+                        <p class="bey-parts">4-80 Low Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="knight-shield-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Shield">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-shield-cyan-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-14 05</span>
+                        <h3 class="bey-name long-name">Knight Shield</h3>
+                        <p class="bey-parts">4-60 Low Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-arrow-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wizard Arrow">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-arrow-red-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-14 06</span>
+                        <h3 class="bey-name long-name">Wizard Arrow</h3>
+                        <p class="bey-parts">3-60 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="leon-claw-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Leon Claw">
+                        <div class="bey-img-box">
+                            <img src="images/full/leon-claw-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-15</span>
+                        <h3 class="bey-name long-name">Leon Claw</h3>
+                        <p class="bey-parts">5-60 Point</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="viper-tail-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Viper Tail">
+                        <div class="bey-img-box">
+                            <img src="images/full/viper-tail-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-16 01</span>
+                        <h3 class="bey-name long-name">Viper Tail</h3>
+                        <p class="bey-parts">5-80 Orb</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="viper-tail-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Viper Tail">
+                        <div class="bey-img-box">
+                            <img src="images/full/viper-tail-black-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-16 02</span>
+                        <h3 class="bey-name long-name">Viper Tail</h3>
+                        <p class="bey-parts">4-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="viper-tail-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Viper Tail">
+                        <div class="bey-img-box">
+                            <img src="images/full/viper-tail-yellow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-16 03</span>
+                        <h3 class="bey-name long-name">Viper Tail</h3>
+                        <p class="bey-parts">3-80 High Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dran-sword-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran Sword">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-sword-red-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-17</span>
+                        <h3 class="bey-name long-name">Dran Sword</h3>
+                        <p class="bey-parts">3-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-arrow-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wizard Arrow">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-arrow-blue-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-17</span>
+                        <h3 class="bey-name long-name">Wizard Arrow</h3>
+                        <p class="bey-parts">4-80 Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="rhino-horn-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Rhino Horn">
+                        <div class="bey-img-box">
+                            <img src="images/full/rhino-horn-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-19</span>
+                        <h3 class="bey-name long-name">Rhino Horn</h3>
+                        <p class="bey-parts">3-80 Spike</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dran-dagger-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran Dagger">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-dagger-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-20</span>
+                        <h3 class="bey-name long-name">Dran Dagger</h3>
+                        <p class="bey-parts">4-60 Rush</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="knight-shield-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Shield">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-shield-violet-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-20</span>
+                        <h3 class="bey-name long-name">Knight Shield</h3>
+                        <p class="bey-parts">5-80 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shark-edge-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shark Edge">
+                        <div class="bey-img-box">
+                            <img src="images/full/shark-edge-green-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-20</span>
+                        <h3 class="bey-name long-name">Shark Edge</h3>
+                        <p class="bey-parts">3-80 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="hells-chain-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Hells Chain">
+                        <div class="bey-img-box">
+                            <img src="images/full/hells-chain-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-21</span>
+                        <h3 class="bey-name long-name">Hells Chain</h3>
+                        <p class="bey-parts">4-60 High Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="knight-lance-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Lance">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-lance-yellow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-21</span>
+                        <h3 class="bey-name long-name">Knight Lance</h3>
+                        <p class="bey-parts">3-60 Low Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-arrow-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wizard Arrow">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-arrow-orange-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-21</span>
+                        <h3 class="bey-name long-name">Wizard Arrow</h3>
+                        <p class="bey-parts">4-80 Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+                
+                <a href="dran-sword-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran Sword">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-sword-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-22</span>
+                        <h3 class="bey-name long-name">Dran Sword</h3>
+                        <p class="bey-parts">3-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="phoenix-wing-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Phoenix Wing">
+                        <div class="bey-img-box">
+                            <img src="images/full/phoenix-wing-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-23</span>
+                        <h3 class="bey-name long-name">Phoenix Wing</h3>
+                        <p class="bey-parts">9-60 Gear Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wyvern-gale-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wyvern Gale">
+                        <div class="bey-img-box">
+                            <img src="images/full/wyvern-gale-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-24 01</span>
+                        <h3 class="bey-name long-name">Wyvern Gale</h3>
+                        <p class="bey-parts">5-80 Gear Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wyvern-gale-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wyvern Gale">
+                        <div class="bey-img-box">
+                            <img src="images/full/wyvern-gale-yellow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-24 02</span>
+                        <h3 class="bey-name long-name">Wyvern Gale</h3>
+                        <p class="bey-parts">3-60 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="knight-lance-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Knight Lance">
+                        <div class="bey-img-box">
+                            <img src="images/full/knight-lance-black-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-24 03</span>
+                        <h3 class="bey-name long-name">Knight Lance</h3>
+                        <p class="bey-parts">4-60 Gear Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="viper-tail-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Viper Tail">
+                        <div class="bey-img-box">
+                            <img src="images/full/viper-tail-blue-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-24 04</span>
+                        <h3 class="bey-name long-name">Viper Tail</h3>
+                        <p class="bey-parts">5-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="leon-claw-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Leon Claw">
+                        <div class="bey-img-box">
+                            <img src="images/full/leon-claw-red-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-24 05</span>
+                        <h3 class="bey-name long-name">Leon Claw</h3>
+                        <p class="bey-parts">3-80 High Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-arrow-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Wizard Arrow">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-arrow-violet-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-24 06</span>
+                        <h3 class="bey-name long-name">Wizard Arrow</h3>
+                        <p class="bey-parts">4-80 Gear Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="unicorn-sting-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Unicorn Sting">
+                        <div class="bey-img-box">
+                            <img src="images/full/unicorn-sting-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-26</span>
+                        <h3 class="bey-name long-name">Unicorn Sting</h3>
+                        <p class="bey-parts">5-60 Gear Point</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="sphinx-cowl-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Sphinx Cowl">
+                        <div class="bey-img-box">
+                            <img src="images/full/sphinx-cowl-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-27 01</span>
+                        <h3 class="bey-name long-name">Sphinx Cowl</h3>
+                        <p class="bey-parts">9-80 Gear Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="sphinx-cowl-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Sphinx Cowl">
+                        <div class="bey-img-box">
+                            <img src="images/full/sphinx-cowl-black-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-27 02</span>
+                        <h3 class="bey-name long-name">Sphinx Cowl</h3>
+                        <p class="bey-parts">4-80 High Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="sphinx-cowl-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Sphinx Cowl">
+                        <div class="bey-img-box">
+                            <img src="images/full/sphinx-cowl-white-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-27 03</span>
+                        <h3 class="bey-name long-name">Sphinx Cowl</h3>
+                        <p class="bey-parts">5-60 Orb</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="tyranno-beat-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Tyranno Beat">
+                        <div class="bey-img-box">
+                            <img src="images/full/tyranno-beat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-31 01</span>
+                        <h3 class="bey-name long-name">Tyranno Beat</h3>
+                        <p class="bey-parts">4-70 Quake</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="tyranno-beat-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Tyranno Beat">
+                        <div class="bey-img-box">
+                            <img src="images/full/tyranno-beat-green-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-31 02</span>
+                        <h3 class="bey-name long-name">Tyranno Beat</h3>
+                        <p class="bey-parts">3-60 Spike</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="hells-chain-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Hells Chain">
+                        <div class="bey-img-box">
+                            <img src="images/full/hells-chain-blue-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-31 03</span>
+                        <h3 class="bey-name long-name">Hells Chain</h3>
+                        <p class="bey-parts">9-80 Orb</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dran-dagger-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran Dagger">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-dagger-orange-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-31 04</span>
+                        <h3 class="bey-name long-name">Dran Dagger</h3>
+                        <p class="bey-parts">4-70 Point</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shark-edge-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shark Edge">
+                        <div class="bey-img-box">
+                            <img src="images/full/shark-edge-black-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-31 05</span>
+                        <h3 class="bey-name long-name">Shark Edge</h3>
+                        <p class="bey-parts">1-60 Quake</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="rhino-horn-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Rhino Horn">
+                        <div class="bey-img-box">
+                            <img src="images/full/rhino-horn-violet-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-31 06</span>
+                        <h3 class="bey-name long-name">Rhino Horn</h3>
+                        <p class="bey-parts">5-80 Quake</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="weiss-tiger-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Weiss Tiger">
+                        <div class="bey-img-box">
+                            <img src="images/full/weiss-tiger-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-33</span>
+                        <h3 class="bey-name long-name">Weiss Tiger</h3>
+                        <p class="bey-parts">3-60 Unite</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="cobalt-dragoon-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Cobalt Dragoon">
+                        <div class="bey-img-box">
+                            <img src="images/full/cobalt-dragoon-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-34</span>
+                        <h3 class="bey-name long-name">Cobalt Dragoon</h3>
+                        <p class="bey-parts">2-60 Cyclone</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="black-shell-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Black Shell">
+                        <div class="bey-img-box">
+                            <img src="images/full/black-shell-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-35 01</span>
+                        <h3 class="bey-name long-name">Black Shell</h3>
+                        <p class="bey-parts">4-60 Dot</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="black-shell-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Black Shell">
+                        <div class="bey-img-box">
+                            <img src="images/full/black-shell-yellow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-35 02</span>
+                        <h3 class="bey-name long-name">Black Shell</h3>
+                        <p class="bey-parts">9-80 Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="unicorn-sting-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Unicorn Sting">
+                        <div class="bey-img-box">
+                            <img src="images/full/unicorn-sting-red-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-35 03</span>
+                        <h3 class="bey-name long-name">Unicorn Sting</h3>
+                        <p class="bey-parts">3-70 Dot</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="wizard-rod-wiki.html" class="card-link">
+                    <div class="ux-bey-card" data-name="Wizard Rod">
+                        <div class="bey-img-box">
+                            <img src="images/full/wizard-rod-green-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-35 04</span>
+                        <h3 class="bey-name long-name">Wizard Rod</h3>
+                        <p class="bey-parts">1-60 Rush</p>
+                        <span class="bey-line ux-tag">UX LINE</span>
+                    </div>
+                </a>
+
+                <a href="phoenix-wing-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Phoenix Wing">
+                        <div class="bey-img-box">
+                            <img src="images/full/phoenix-wing-blue-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-35 05</span>
+                        <h3 class="bey-name long-name">Phoenix Wing</h3>
+                        <p class="bey-parts">5-80 Hexa</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="viper-tail-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Viper Tail">
+                        <div class="bey-img-box">
+                            <img src="images/full/viper-tail-violet-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-35 06</span>
+                        <h3 class="bey-name long-name">Viper Tail</h3>
+                        <p class="bey-parts">5-70 Dot</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="whale-wave-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Whale Wave">
+                        <div class="bey-img-box">
+                            <img src="images/full/whale-wave-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-36 01</span>
+                        <h3 class="bey-name long-name">Whale Wave</h3>
+                        <p class="bey-parts">5-80 Elevate</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="whale-wave-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Whale Wave">
+                        <div class="bey-img-box">
+                            <img src="images/full/whale-wave-black-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-36 02</span>
+                        <h3 class="bey-name long-name">Whale Wave</h3>
+                        <p class="bey-parts">4-70 High Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="whale-wave-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Whale Wave">
+                        <div class="bey-img-box">
+                            <img src="images/full/whale-wave-white-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-36 03</span>
+                        <h3 class="bey-name long-name">Whale Wave</h3>
+                        <p class="bey-parts">3-80 Gear Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="bear-scratch-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Bear Scratch">
+                        <div class="bey-img-box">
+                            <img src="images/full/bear-scratch-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-37</span>
+                        <h3 class="bey-name long-name">Bear Scratch</h3>
+                        <p class="bey-parts">5-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="crimson-garuda-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Crimson Garuda">
+                        <div class="bey-img-box">
+                            <img src="images/full/crimson-garuda-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-38</span>
+                        <h3 class="bey-name long-name">Crimson Garuda</h3>
+                        <p class="bey-parts">4-70 Trans Point</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shelter-drake-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shelter Drake">
+                        <div class="bey-img-box">
+                            <img src="images/full/shelter-drake-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-39 01</span>
+                        <h3 class="bey-name long-name">Shelter Drake</h3>
+                        <p class="bey-parts">7-80 Gear Point</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shelter-drake-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shelter Drake">
+                        <div class="bey-img-box">
+                            <img src="images/full/shelter-drake-yellow-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-39 02</span>
+                        <h3 class="bey-name long-name">Shelter Drake</h3>
+                        <p class="bey-parts">5-70 Orb</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shelter-drake-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shelter Drake">
+                        <div class="bey-img-box">
+                            <img src="images/full/shelter-drake-green-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-39 03</span>
+                        <h3 class="bey-name long-name">Shelter Drake</h3>
+                        <p class="bey-parts">3-60 Dot</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="tricera-press-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Tricera Press">
+                        <div class="bey-img-box">
+                            <img src="images/full/tricera-press-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-44</span>
+                        <h3 class="bey-name long-name">Tricera Press</h3>
+                        <p class="bey-parts">M-85 Bound Spike</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="samurai-calibur-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Samurai Calibur">
+                        <div class="bey-img-box">
+                            <img src="images/full/samurai-calibur-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-45</span>
+                        <h3 class="bey-name long-name">Samurai Calibur</h3>
+                        <p class="bey-parts">6-70 Merge</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="cobalt-drake-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Cobalt Drake">
+                        <div class="bey-img-box">
+                            <img src="images/full/cobalt-drake-red-coat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-46</span>
+                        <h3 class="bey-name long-name">Cobalt Drake</h3>
+                        <p class="bey-parts">9-60 Rush</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="goat-tackle-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Goat Tackle">
+                        <div class="bey-img-box">
+                            <img src="images/full/goat-tackle-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-46</span>
+                        <h3 class="bey-name long-name">Goat Tackle</h3>
+                        <p class="bey-parts">7-70 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="cobalt-dragoon-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Cobalt Dragoon">
+                        <div class="bey-img-box">
+                            <img src="images/full/cobalt-dragoon-black-recoat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-48 01</span>
+                        <h3 class="bey-name long-name">Cobalt Dragoon</h3>
+                        <p class="bey-parts">9-80 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shark-edge-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shark Edge">
+                        <div class="bey-img-box">
+                            <img src="images/full/shark-edge-blue-recoat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-48 02</span>
+                        <h3 class="bey-name long-name">Shark Edge</h3>
+                        <p class="bey-parts">4-70 Elevate</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="mammoth-tusk-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Mammoth Tusk">
+                        <div class="bey-img-box">
+                            <img src="images/full/mammoth-tusk-black-recoat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-48 03</span>
+                        <h3 class="bey-name long-name">Mammoth Tusk</h3>
+                        <p class="bey-parts">7-60 Spike</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="hells-scythe-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Hells Scythe">
+                        <div class="bey-img-box">
+                            <img src="images/full/hells-scythe-gold-recoat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-48 04</span>
+                        <h3 class="bey-name long-name">Hells Scythe</h3>
+                        <p class="bey-parts">3-85 Gear Ball</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dran-buster-wiki.html" class="card-link">
+                    <div class="ux-bey-card" data-name="Dran Buster">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-buster-red-recoat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-48 05</span>
+                        <h3 class="bey-name long-name">Dran Buster</h3>
+                        <p class="bey-parts">2-80 Quake</p>
+                        <span class="bey-line ux-tag">UX LINE</span>
+                    </div>
+                </a>
+            <div class="bx-line-separator"><span>LIMITED BX RELEASES</span></div>
+                <a href="cobalt-drake-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Cobalt Drake">
+                        <div class="bey-img-box">
+                            <img src="images/full/cobalt-drake-blue-coat-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-00</span>
+                        <h3 class="bey-name long-name">Cobalt Drake</h3>
+                        <p class="bey-parts">4-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dranzer-spiral-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dranzer Spiral">
+                        <div class="bey-img-box">
+                            <img src="images/full/dranzer-spiral-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-01</span>
+                        <h3 class="bey-name long-name">Dranzer Spiral</h3>
+                        <p class="bey-parts">3-80 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+                
+                <a href="hells-scythe-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Hells Scythe">
+                        <div class="bey-img-box">
+                            <img src="images/full/hells-scythe-gold-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-03</span>
+                        <h3 class="bey-name long-name">Hells Scythe</h3>
+                        <p class="bey-parts">4-60 Taper</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="draciel-shield-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Draciel Shield">
+                        <div class="bey-img-box">
+                            <img src="images/full/draciel-shield-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-11</span>
+                        <h3 class="bey-name long-name">Draciel Shield</h3>
+                        <p class="bey-parts">7-60 Dot</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+
+
+                <a href="driger-slash-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Driger Slash">
+                        <div class="bey-img-box">
+                            <img src="images/full/driger-slash-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-04</span>
+                        <h3 class="bey-name long-name">Driger Slash</h3>
+                        <p class="bey-parts">4-80 Point</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="lightning-l-drago-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Lightning L-Drago">
+                        <div class="bey-img-box">
+                            <img src="images/full/lightning-l-drago-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-07</span>
+                        <h3 class="bey-name long-name">Lightning L-Drago (Upper)</h3>
+                        <p class="bey-parts">1-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="lightning-l-drago-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Lightning L-Drago">
+                        <div class="bey-img-box">
+                            <img src="images/full/lightning-l-drago-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-07</span>
+                        <h3 class="bey-name long-name">Lightning L-Drago (Rapid-Hit)</h3>
+                        <p class="bey-parts">1-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="rock-leone-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Rock Leone">
+                        <div class="bey-img-box">
+                            <img src="images/full/rock-leone-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-20</span>
+                        <h3 class="bey-name long-name">Rock Leone</h3>
+                        <p class="bey-parts">6-80 Gear Needle</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="xeno-xcalibur-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Xeno Xcalibur">
+                        <div class="bey-img-box">
+                            <img src="images/full/xeno-xcalibur-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-13</span>
+                        <h3 class="bey-name long-name">Xeno Xcalibur</h3>
+                        <p class="bey-parts">3-60 Gear Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="shinobi-knife-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Shinobi Knife">
+                        <div class="bey-img-box">
+                            <img src="images/full/shinobi-knife-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-00</span>
+                        <h3 class="bey-name long-name">Shinobi Knife</h3>
+                        <p class="bey-parts">4-60 Low Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="samurai-steel-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Samurai Steel">
+                        <div class="bey-img-box">
+                            <img src="images/full/samurai-steel-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BX-00</span>
+                        <h3 class="bey-name long-name">Samurai Steel</h3>
+                        <p class="bey-parts">5-70 Gear Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dragoon-storm-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dragoon Storm">
+                        <div class="bey-img-box">
+                            <img src="images/full/dragoon-storm-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-12</span>
+                        <h3 class="bey-name long-name">Dragoon Storm</h3>
+                        <p class="bey-parts">4-60 Rubber Accel</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="storm-pegasis-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Storm Pegasis">
+                        <div class="bey-img-box">
+                            <img src="images/full/storm-pegasis-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-12</span>
+                        <h3 class="bey-name long-name">Storm Pegasis</h3>
+                        <p class="bey-parts">3-70 Rubber Accel</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="victory-valkyrie-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Victory Valkyrie">
+                        <div class="bey-img-box">
+                            <img src="images/full/victory-valkyrie-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-12</span>
+                        <h3 class="bey-name long-name">Victory Valkyrie</h3>
+                        <p class="bey-parts">2-60 Rubber Accel</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+
+                <a href="dran-sword-wiki.html" class="card-link">
+                    <div class="bx-bey-card" data-name="Dran Sword">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-sword-holo-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">BXG-12</span>
+                        <h3 class="bey-name long-name">Dran Sword</h3>
+                        <p class="bey-parts">3-60 Flat</p>
+                        <span class="bey-line bx-tag">BX LINE</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ux-line-separator"><span>UX LINE</span></div>
+            <div class="bey-list">
+                <a href="dran-buster-wiki.html" class="card-link"> <div class="ux-bey-card" data-name="Dran Buster">
+                        <div class="bey-img-box">
+                            <img src="images/full/dran-buster-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">UX-01</span>
+                        <h3 class="bey-name long-name">Dran Buster</h3>
+                        <p class="bey-parts">1-60 Accel</p>
+                        <span class="bey-line ux-tag">UX LINE</span>
+                    </div>
+                </a>
+                <a href="-wiki.html" class="card-link"> <div class="ux-bey-card" data-name="">
+                        <div class="bey-img-box">
+                            <img src="images/full/-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">UX-0</span>
+                        <h3 class="bey-name long-name"></h3>
+                        <p class="bey-parts"></p>
+                        <span class="bey-line ux-tag">UX LINE</span>
+                    </div>
+                </a>                
+            </div>
+
+            <div class="cx-line-separator"><span>CX LINE</span></div>
+            <div class="bey-list">
+                <a href="brave-wiki.html" class="card-link"> <div class="cx-bey-card" data-name="Brave">
+                        <div class="bey-img-box">
+                            <img src="images/full/brave-full.png" class="large-bey-img">
+                        </div>
+                        <span class="bey-id">CX-01</span>
+                        <h3 class="bey-name long-name">Brave</h3>
+                        <p class="bey-parts">6-60 Vortex</p>
+                        <span class="bey-line cx-tag">CX LINE</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <script>
+            function filterBeys() {
+                let input = document.getElementById('bladeSearch').value.toLowerCase();
+                let resultsContainer = document.getElementById('searchResults');
+                
+                resultsContainer.innerHTML = "";
+
+                if (input.trim() === "") {
+                    return;
+                }
+
+                // 2. Look through all Beyblade cards (BX, UX, and CX)
+                let allCards = document.querySelectorAll('.bx-bey-card, .ux-bey-card, .cx-bey-card');
+
+                allCards.forEach(card => {
+                    let name = card.getAttribute('data-name') ? card.getAttribute('data-name').toLowerCase() : "";
+                    
+                    // 3. If it matches, CLONE the card into the results area
+                    if (name.includes(input)) {
+                        let clone = card.cloneNode(true);
+                        clone.style.display = "flex"; // Make sure it's visible
+                        resultsContainer.appendChild(clone);
+                    }
+                });
+            }
+        </script>
+    </div>
+</body>
+</html>
