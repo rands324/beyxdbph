@@ -1,0 +1,1182 @@
+[
+ {
+   "large-bey-image": "images/full/bx-01-full.png",
+   "bey-id": "01",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "0-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-02-full.png",
+   "bey-id": "02",
+   "bey-lock": "",
+   "bey-name": "Hells Scythe",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-03-full.png",
+   "bey-id": "03",
+   "bey-lock": "",
+   "bey-name": "Wizard Arrow",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-04-full.png",
+   "bey-id": "04",
+   "bey-lock": "",
+   "bey-name": "Knight Shield",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-05-full.png",
+   "bey-id": "05",
+   "bey-lock": "",
+   "bey-name": "Wizard Arrow",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-06-full.png",
+   "bey-id": "06",
+   "bey-lock": "",
+   "bey-name": "Knight Shield",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-07-full.png",
+   "bey-id": "07",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-08-01-full.png",
+   "bey-id": "08",
+   "bey-lock": "",
+   "bey-name": "Hells Scythe",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-08-02-full.png",
+   "bey-id": "08",
+   "bey-lock": "",
+   "bey-name": "Wizard Arrow",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-08-03-full.png",
+   "bey-id": "08",
+   "bey-lock": "",
+   "bey-name": "Knight Shield",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-13-full.png",
+   "bey-id": "13",
+   "bey-lock": "",
+   "bey-name": "Knight Lance",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "High Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-14-01.png",
+   "bey-id": "14 01",
+   "bey-lock": "",
+   "bey-name": "Shark Edge",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Low Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-14-02.png",
+   "bey-id": "14 02",
+   "bey-lock": "",
+   "bey-name": "Shark Edge",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-14-03.png",
+   "bey-id": "14 03",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-14-04.png",
+   "bey-id": "14 04",
+   "bey-lock": "",
+   "bey-name": "Hells Scythe",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Low Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-14-05.png",
+   "bey-id": "14 05",
+   "bey-lock": "",
+   "bey-name": "Knight Shield",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Low Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-14-06.png",
+   "bey-id": "14 06",
+   "bey-lock": "",
+   "bey-name": "Wizard Arrow",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-15-full.png",
+   "bey-id": "15",
+   "bey-lock": "",
+   "bey-name": "Leon Claw",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-16-01-full.png",
+   "bey-id": "16 01",
+   "bey-lock": "",
+   "bey-name": "Viper Tail",
+   "bey-assist": "",
+   "bey-ratchet": "5-80",
+   "bey-bit": "Orb",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-16-02.png",
+   "bey-id": "16 02",
+   "bey-lock": "",
+   "bey-name": "Viper Tail",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-16-03.png",
+   "bey-id": "16 03",
+   "bey-lock": "",
+   "bey-name": "Viper Tail",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "High Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-17-01-full.png",
+   "bey-id": "17",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-17-02-full.png",
+   "bey-id": "17",
+   "bey-lock": "",
+   "bey-name": "Wizard Arrow",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-19-full.png",
+   "bey-id": "19",
+   "bey-lock": "",
+   "bey-name": "Rhino Horn",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Spike",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-20-01-full.png",
+   "bey-id": "20",
+   "bey-lock": "",
+   "bey-name": "Dran Dagger",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Rush",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-20-02.png",
+   "bey-id": "20",
+   "bey-lock": "",
+   "bey-name": "Knight Shield",
+   "bey-assist": "",
+   "bey-ratchet": "5-80",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-20-03.png",
+   "bey-id": "20",
+   "bey-lock": "",
+   "bey-name": "Shark Edge",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-21-01-full.png",
+   "bey-id": "21",
+   "bey-lock": "",
+   "bey-name": "Hells Chain",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "High Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-21-02.png",
+   "bey-id": "21",
+   "bey-lock": "",
+   "bey-name": "Knight Lance",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Low Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-21-03.png",
+   "bey-id": "21",
+   "bey-lock": "",
+   "bey-name": "Wizard Arrow",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-01-full.png",
+   "bey-id": "22",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-23-full.png",
+   "bey-id": "23",
+   "bey-lock": "",
+   "bey-name": "Phoenix Wing",
+   "bey-assist": "",
+   "bey-ratchet": "9-60",
+   "bey-bit": "Gear Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-24-01.png",
+   "bey-id": "24 01",
+   "bey-lock": "",
+   "bey-name": "Wyvern Gale",
+   "bey-assist": "",
+   "bey-ratchet": "5-80",
+   "bey-bit": "Gear Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-24-02.png",
+   "bey-id": "24 02",
+   "bey-lock": "",
+   "bey-name": "Wyvern Gale",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-24-03.png",
+   "bey-id": "24 03",
+   "bey-lock": "",
+   "bey-name": "Knight Lance",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Gear Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-24-04.png",
+   "bey-id": "24 04",
+   "bey-lock": "",
+   "bey-name": "Viper Tail",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-24-05.png",
+   "bey-id": "24 05",
+   "bey-lock": "",
+   "bey-name": "Leon Claw",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "High Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-24-06.png",
+   "bey-id": "24 06",
+   "bey-lock": "",
+   "bey-name": "Wizard Arrow",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Gear Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-26-full.png",
+   "bey-id": "26",
+   "bey-lock": "",
+   "bey-name": "Unicorn Sting",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "Gear Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-27-01-full.png",
+   "bey-id": "27 01",
+   "bey-lock": "",
+   "bey-name": "Sphinx Cowl",
+   "bey-assist": "",
+   "bey-ratchet": "9-80",
+   "bey-bit": "Gear Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-27-02.png",
+   "bey-id": "27 02",
+   "bey-lock": "",
+   "bey-name": "Sphinx Cowl",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "High Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-27-03.png",
+   "bey-id": "27 03",
+   "bey-lock": "",
+   "bey-name": "Sphinx Cowl",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "Orb",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-31-01.png",
+   "bey-id": "31 01",
+   "bey-lock": "",
+   "bey-name": "Tyranno Beat",
+   "bey-assist": "",
+   "bey-ratchet": "4-70",
+   "bey-bit": "Quake",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-31-02.png",
+   "bey-id": "31 02",
+   "bey-lock": "",
+   "bey-name": "Tyranno Beat",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Spike",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-31-03.png",
+   "bey-id": "31 03",
+   "bey-lock": "",
+   "bey-name": "Hells Chain",
+   "bey-assist": "",
+   "bey-ratchet": "9-80",
+   "bey-bit": "Orb",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-31-04.png",
+   "bey-id": "31 04",
+   "bey-lock": "",
+   "bey-name": "Dran Dagger",
+   "bey-assist": "",
+   "bey-ratchet": "4-70",
+   "bey-bit": "Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-31-05.png",
+   "bey-id": "31 05",
+   "bey-lock": "",
+   "bey-name": "Shark Edge",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Quake",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-31-06.png",
+   "bey-id": "31 06",
+   "bey-lock": "",
+   "bey-name": "Rhino Horn",
+   "bey-assist": "",
+   "bey-ratchet": "5-80",
+   "bey-bit": "Quake",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-33-full.png",
+   "bey-id": "33",
+   "bey-lock": "",
+   "bey-name": "Weiss Tiger",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Unite",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-34-full.png",
+   "bey-id": "34",
+   "bey-lock": "",
+   "bey-name": "Cobalt Dragoon",
+   "bey-assist": "",
+   "bey-ratchet": "2-60",
+   "bey-bit": "Cyclone",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-35-01-full.png",
+   "bey-id": "35 01",
+   "bey-lock": "",
+   "bey-name": "Black Shell",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Dot",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-35-02.png",
+   "bey-id": "35 02",
+   "bey-lock": "",
+   "bey-name": "Black Shell",
+   "bey-assist": "",
+   "bey-ratchet": "9-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-35-03.png",
+   "bey-id": "35 03",
+   "bey-lock": "",
+   "bey-name": "Unicorn Sting",
+   "bey-assist": "",
+   "bey-ratchet": "3-70",
+   "bey-bit": "Dot",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-35-04.png",
+   "bey-id": "35 04",
+   "bey-lock": "",
+   "bey-name": "Wizard Rod",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Rush",
+   "bey-line": "UX"
+ },
+ {
+   "large-bey-image": "images/full/bx-35-05.png",
+   "bey-id": "35 05",
+   "bey-lock": "",
+   "bey-name": "Phoenix Wing",
+   "bey-assist": "",
+   "bey-ratchet": "5-80",
+   "bey-bit": "Hexa",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-35-06.png",
+   "bey-id": "35 06",
+   "bey-lock": "",
+   "bey-name": "Viper Tail",
+   "bey-assist": "",
+   "bey-ratchet": "5-70",
+   "bey-bit": "Dot",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-36-01-full.png",
+   "bey-id": "36 01",
+   "bey-lock": "",
+   "bey-name": "Whale Wave",
+   "bey-assist": "",
+   "bey-ratchet": "5-80",
+   "bey-bit": "Elevate",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-36-02.png",
+   "bey-id": "36 02",
+   "bey-lock": "",
+   "bey-name": "Whale Wave",
+   "bey-assist": "",
+   "bey-ratchet": "4-70",
+   "bey-bit": "High Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-36-03.png",
+   "bey-id": "36 03",
+   "bey-lock": "",
+   "bey-name": "Whale Wave",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Gear Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-37-full.png",
+   "bey-id": "37",
+   "bey-lock": "",
+   "bey-name": "Bear Scratch",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-37-full.png",
+   "bey-id": "38",
+   "bey-lock": "",
+   "bey-name": "Crimson Garuda",
+   "bey-assist": "",
+   "bey-ratchet": "4-70",
+   "bey-bit": "Trans Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-39-01-full.png",
+   "bey-id": "39 01",
+   "bey-lock": "",
+   "bey-name": "Shelter Drake",
+   "bey-assist": "",
+   "bey-ratchet": "7-80",
+   "bey-bit": "Gear Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-39-02.png",
+   "bey-id": "39 02",
+   "bey-lock": "",
+   "bey-name": "Shelter Drake",
+   "bey-assist": "",
+   "bey-ratchet": "5-70",
+   "bey-bit": "Orb",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-39-03.png",
+   "bey-id": "39 03",
+   "bey-lock": "",
+   "bey-name": "Shelter Drake",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Dot",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-44-full.png",
+   "bey-id": "44",
+   "bey-lock": "",
+   "bey-name": "Tricera Press",
+   "bey-assist": "",
+   "bey-ratchet": "M-85",
+   "bey-bit": "Bound Spike",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-45-full.png",
+   "bey-id": "45",
+   "bey-lock": "",
+   "bey-name": "Samurai Calibur",
+   "bey-assist": "",
+   "bey-ratchet": "6-70",
+   "bey-bit": "Merge",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-46-01-full.png",
+   "bey-id": "46",
+   "bey-lock": "",
+   "bey-name": "Cobalt Drake",
+   "bey-assist": "",
+   "bey-ratchet": "9-60",
+   "bey-bit": "Rush",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-36-02-full.png",
+   "bey-id": "46",
+   "bey-lock": "",
+   "bey-name": "Goat Tackle",
+   "bey-assist": "",
+   "bey-ratchet": "7-70",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-48-01-full.png",
+   "bey-id": "48 01",
+   "bey-lock": "",
+   "bey-name": "Cobalt Dragoon",
+   "bey-assist": "",
+   "bey-ratchet": "9-80",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-48-02.png",
+   "bey-id": "48 02",
+   "bey-lock": "",
+   "bey-name": "Shark Edge",
+   "bey-assist": "",
+   "bey-ratchet": "4-70",
+   "bey-bit": "Elevate",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-48-03.png",
+   "bey-id": "48 03",
+   "bey-lock": "",
+   "bey-name": "Mammoth Tusk",
+   "bey-assist": "",
+   "bey-ratchet": "7-60",
+   "bey-bit": "Spike",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-48-04.png",
+   "bey-id": "48 04",
+   "bey-lock": "",
+   "bey-name": "Hells Scythe",
+   "bey-assist": "",
+   "bey-ratchet": "3-85",
+   "bey-bit": "Gear Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/bx-48-05.png",
+   "bey-id": "48 05",
+   "bey-lock": "",
+   "bey-name": "Dran Buster",
+   "bey-assist": "",
+   "bey-ratchet": "2-80",
+   "bey-bit": "Quake",
+   "bey-line": "UX"
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ },
+ {
+   "large-bey-image": "",
+   "bey-id": "",
+   "bey-lock": "",
+   "bey-name": "",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": ""
+ }
+]
