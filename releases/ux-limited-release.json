@@ -1,0 +1,145 @@
+[
+ {
+   "large-bey-image": "images/full/barcelona-hammer-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Hells Hammer",
+   "bey-assist": "",
+   "bey-ratchet": "3-70",
+   "bey-bit": "Hexa",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/barcelona-buster-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Buster",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Accel",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/red-buster.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Buster",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Accel",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/gold-rod.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Wizard Rod",
+   "bey-assist": "",
+   "bey-ratchet": "5-70",
+   "bey-bit": "Disk Ball",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/aero-pegasus-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Aero Pegasus",
+   "bey-assist": "",
+   "bey-ratchet": "3-70",
+   "bey-bit": "Accel",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/white-sword-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX",
+   "series": "UX"
+ },
+ {
+   "large-bey-image": "images/full/white-dagger-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Dagger",
+   "bey-assist": "",
+   "bey-ratchet": "9-60",
+   "bey-bit": "Low Flat",
+   "bey-line": "BX",
+   "series": "UX"
+ },
+ {
+   "large-bey-image": "images/full/white-buster-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Buster",
+   "bey-assist": "",
+   "bey-ratchet": "3-70",
+   "bey-bit": "Needle",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/blue-buster.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Buster",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Accel",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/magenta-buster.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Buster",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Accel",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/black-buster.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Buster",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Accel",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/navy-mail-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Knight Mail",
+   "bey-assist": "",
+   "bey-ratchet": "3-85",
+   "bey-bit": "Bound Spike",
+   "bey-line": "UX",
+   "series": ""
+ },
+ {
+   "large-bey-image": "images/full/red-aero-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Aero Pegasus",
+   "bey-assist": "",
+   "bey-ratchet": "3-70",
+   "bey-bit": "Accel",
+   "bey-line": "UX",
+   "series": ""
+ }
+]

@@ -1,0 +1,502 @@
+[
+ {
+   "large-bey-image": "images/full/dranzer-spiral-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dranzer Spiral",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/black-spiral-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dranzer Spiral",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/knight-shield-gold.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Knight Shield",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/blue-drake-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Cobalt Drake",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/gold-scythe-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Hells Scythe",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/dran-sword-bronze.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/dran-sword-silver.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/dran-sword-gold.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/phoenix-feather-red.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Phoenix Feather",
+   "bey-assist": "",
+   "bey-ratchet": "",
+   "bey-bit": "",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/spx-scythe-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Hells Scythe",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/sushiro-sword-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/gold-claw-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Leon Claw",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/blue-edge-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Shark Edge",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "Gear Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/driger-slash-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Driger Slash",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/black-chain-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Hells Chain",
+   "bey-assist": "",
+   "bey-ratchet": "5-60",
+   "bey-bit": "High Taper",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/blue-sword.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/giants-dagger-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Dagger",
+   "bey-assist": "",
+   "bey-ratchet": "2-80",
+   "bey-bit": "Gear Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/black-dragoon-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Cobalt Dragoon",
+   "bey-assist": "",
+   "bey-ratchet": "2-60",
+   "bey-bit": "Cyclone",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/upper-drago-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Lightning L-Drago (Upper Type)",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/rapid-drago-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Lightning L-Drago (Rapid-Hit Type)",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/shinobi-knife-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Shinobi Knife",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Low Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/coro-pwing-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Phoenix Wing",
+   "bey-assist": "",
+   "bey-ratchet": "9-80",
+   "bey-bit": "Disk Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/clear-drake-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Cobalt Drake",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/draciel-shield-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Draciel Shield",
+   "bey-assist": "",
+   "bey-ratchet": "7-60",
+   "bey-bit": "Dot",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/croc-crunch-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Croc Crunch",
+   "bey-assist": "",
+   "bey-ratchet": "2-60",
+   "bey-bit": "Quake",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/black-pwing-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Phoenix Wing",
+   "bey-assist": "",
+   "bey-ratchet": "9-60",
+   "bey-bit": "Gear Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/dragoon-storm-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dragoon Storm",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Rubber Accel",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/storm-pegasis-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Storm Pegasis",
+   "bey-assist": "",
+   "bey-ratchet": "3-70",
+   "bey-bit": "Rubber Accel",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/victory-valkyrie-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Victory Valkyrie",
+   "bey-assist": "",
+   "bey-ratchet": "2-60",
+   "bey-bit": "Rubber Accel",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/holo-sword-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/mammoth-tusk-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Mammoth Tusk",
+   "bey-assist": "",
+   "bey-ratchet": "2-80",
+   "bey-bit": "Elevate",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/xeno-xcalibur-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Xeno Xcalibur",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Gear Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/ironman-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Iron Man",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/thanos-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Thanos",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/spiderman-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Spider-Man",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/venom-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Venom",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/skywalker-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Luke Skywalker",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/vader-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Darth Vader",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/mandalorian-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "The Mandalorian",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/gideon-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Moff Gideon",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/primal-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Optimus Primal",
+   "bey-assist": "",
+   "bey-ratchet": "3-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/starscream-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Starscream",
+   "bey-assist": "",
+   "bey-ratchet": "3-80",
+   "bey-bit": "Needle",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/prime-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Optimus Prime",
+   "bey-assist": "",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Point",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/megatron-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Megatron",
+   "bey-assist": "",
+   "bey-ratchet": "4-80",
+   "bey-bit": "Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/spinosaurus-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Spinosaurus",
+   "bey-assist": "",
+   "bey-ratchet": "3-85",
+   "bey-bit": "Accel",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/quetzalcoatlus-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Quetzalcoatlus",
+   "bey-assist": "",
+   "bey-ratchet": "4-55",
+   "bey-bit": "Dot",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/trex-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "T. Rex",
+   "bey-assist": "",
+   "bey-ratchet": "1-80",
+   "bey-bit": "Gear Ball",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/mosasaurus-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Mosasaurus",
+   "bey-assist": "",
+   "bey-ratchet": "9-60",
+   "bey-bit": "Unite",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/league-sword-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Dran Sword",
+   "bey-assist": "",
+   "bey-ratchet": "1-60",
+   "bey-bit": "Vortex",
+   "bey-line": "BX"
+ },
+ {
+   "large-bey-image": "images/full/league-dragoon-full.png",
+   "bey-id": "00",
+   "bey-lock": "",
+   "bey-name": "Cobalt Dragoon",
+   "bey-assist": "",
+   "bey-ratchet": "9-60",
+   "bey-bit": "Flat",
+   "bey-line": "BX"
+ }
+]

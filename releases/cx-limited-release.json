@@ -1,0 +1,62 @@
+[
+ {
+   "large-bey-image": "images/full/gold-perseus.png",
+   "bey-id": "00",
+   "bey-lock": "Perseus",
+   "bey-name": "Dark",
+   "bey-assist": "Bumper",
+   "bey-ratchet": "6-80",
+   "bey-bit": "Wedge",
+   "bey-line": "CX"
+ },
+ {
+   "large-bey-image": "images/full/valkyrie-volt-full.png",
+   "bey-id": "00",
+   "bey-lock": "Valkyrie",
+   "bey-name": "Volt",
+   "bey-assist": "Slash",
+   "bey-ratchet": "4-70",
+   "bey-bit": "Vortex",
+   "bey-line": "CX"
+ },
+ {
+   "large-bey-image": "images/full/red-pegasus-full.png",
+   "bey-id": "00",
+   "bey-lock": "Pegasus",
+   "bey-name": "Blast",
+   "bey-assist": "Assault",
+   "bey-ratchet": "Turbo",
+   "bey-bit": "Turbo",
+   "bey-line": "CX"
+ },
+ {
+   "large-bey-image": "images/full/black-arc-full.png",
+   "bey-id": "00",
+   "bey-lock": "Wizard",
+   "bey-name": "Arc",
+   "bey-assist": "Round",
+   "bey-ratchet": "4-55",
+   "bey-bit": "Low Orb",
+   "bey-line": "CX"
+ },
+ {
+   "large-bey-image": "images/full/leon-fang-full.png",
+   "bey-id": "00",
+   "bey-lock": "Leon",
+   "bey-name": "Fang",
+   "bey-assist": "Turn",
+   "bey-ratchet": "4-60",
+   "bey-bit": "Accel",
+   "bey-line": "CX"
+ },
+ {
+   "large-bey-image": "images/full/black-brave-full.png",
+   "bey-id": "00",
+   "bey-lock": "Dran",
+   "bey-name": "Brave",
+   "bey-assist": "Slash",
+   "bey-ratchet": "6-60",
+   "bey-bit": "Vortex",
+   "bey-line": "CX"
+ }
+]

@@ -6,7 +6,7 @@
     <title>Parts Database - Beyblade X</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="parts-body">
+<body>
 
     <nav class="top-nav">
         <a href="index.html" class="nav-logo">BEYBLADE X PH</a>
@@ -21,127 +21,245 @@
 
     <div class="container">
         <h1 class="glow-text-blue">BEYBLADE X DATABASE</h1>
-            <div class="accessory-section-separator"><span>PARTS</span></div>
+
+        <div class="search-container">
+            <input type="text" id="bladeSearch" placeholder="Search Beyblade Name..." onkeyup="filterBeys()">
+            <div id="searchResults" class="bey-list" style="margin-top: 20px; border-bottom: 1px solid #333; padding-bottom: 20px;"></div>
+        </div>
+
+        <div class="accessory-section-separator"><span>PARTS</span></div>
+        <div class="parts-grid">
+            <a href="blades.html" class="part-card blade-card">
+                <div class="card-icon">⚡</div>
+                <h2>BLADES</h2>
+            </a>
+            <a href="ratchets.html" class="part-card ratchet-card">
+                <div class="card-icon">⚙️</div>
+                <h2>RATCHETS</h2>
+            </a>
+            <a href="bits.html" class="part-card bit-card">
+                <div class="card-icon">💎</div>
+                <h2>BITS</h2>
+            </a>
+        </div>
+        <div class="cx-parts-section">
+            <div class="cx-parts-section-separator"><span>CX LINE PARTS</span></div>
+            <div class="cx-grid">
+                <a href="assist-blades.html" class="part-card cx-card">
+                    <div class="card-icon">🛡️</div>
+                    <h2>ASSIST BLADES</h2>                    </a>
+                </a>
+                <a href="lock-chips.html" class="part-card cx-card">
+                    <div class="card-icon">🔒</div>
+                    <h2>LOCK CHIPS</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="accessory-section">
+            <div class="accessory-section-separator"><span>GEARS & STADIUMS</span></div>
             <div class="parts-grid">
-                <a href="blades.html" class="part-card blade-card">
-                    <div class="card-icon">⚡</div>
-                    <h2>BLADES</h2>
+                <a href="stadiums.html" class="part-card accessory-card">
+                    <div class="card-icon">🏟️</div>
+                    <h2>STADIUMS</h2>
                 </a>
-                <a href="ratchets.html" class="part-card ratchet-card">
-                    <div class="card-icon">⚙️</div>
-                    <h2>RATCHETS</h2>
+                <a href="launchers.html" class="part-card accessory-card">
+                    <div class="card-icon">🚀</div>
+                    <h2>LAUNCHERS</h2>
                 </a>
-                <a href="bits.html" class="part-card bit-card">
-                    <div class="card-icon">💎</div>
-                    <h2>BITS</h2>
+                <a href="accessories.html" class="part-card accessory-card">
+                    <div class="card-icon">🚀</div>
+                    <h2>ACCESSORIES</h2>
                 </a>
             </div>
-
-            <div class="cx-section">
-                <div class="cx-section-separator"><span>CX LINE PARTS</span></div>
-                <div class="cx-grid">
-                    <a href="assist-blades.html" class="part-card assist-card">
-                        <div class="card-icon">🛡️</div>
-                        <h2>ASSIST BLADES</h2>
-                    </a>
-                    <a href="lock-chips.html" class="part-card lock-card">
-                        <div class="card-icon">🔒</div>
-                        <h2>LOCK CHIPS</h2>
-                    </a>
-                </div>
-            </div>
-
-            <div class="accessory-section">
-                <div class="accessory-section-separator"><span>GEARS & STADIUMS</span></div>
-                <div class="parts-grid">
-                    <a href="stadiums.html" class="part-card stadium-card">
-                        <div class="card-icon">🏟️</div>
-                        <h2>STADIUMS</h2>
-                    </a>
-                    <a href="launchers.html" class="part-card launcher-card">
-                        <div class="card-icon">🚀</div>
-                        <h2>LAUNCHERS</h2>
-                    </a>
-                    <a href="accessories.html" class="part-card launcher-card">
-                        <div class="card-icon">🚀</div>
-                        <h2>ACCESSORIES</h2>
-                    </a>
-                </div>
-            </div>
+        </div>
             
-        <div class="full-bey-section">
-            <h1 class="glow-text-blue" style="font-size: 1.5rem; margin-top: 100px; text-align: center;">RELEASES</h1>
+            <div class="full-bey-section">
+                <h1 class="glow-text-blue" style="font-size: 2rem; margin-top: 100px; text-align: center;">BEYBLADE RELEASES</h1>
 
-            <div class="search-container">
-                <input type="text" id="bladeSearch" placeholder="Search Beyblade Name..." onkeyup="filterBeys()">
-                <div id="searchResults" class="bey-list" style="margin-top: 20px; border-bottom: 1px solid #333; padding-bottom: 20px;"></div>
+                <div class="bx-line-separator"><span>BX RELEASES</span></div>
+                <div id="bx-list" class="bey-list"></div>
+
+                <div class="bx-line-separator"><span>BX LIMITED RELEASES</span></div>
+                <div id="bx-limited-list" class="bey-list"></div>
+
+                <div class="ux-line-separator"><span>UX RELEASES</span></div>
+                <div id="ux-list" class="bey-list"></div>
+
+                <div class="ux-line-separator"><span>UX LIMITED RELEASES</span></div>
+                <div id="ux-limited-list" class="bey-list"></div>
+
+                <div class="cx-line-separator"><span>CX RELEASES</span></div>
+                <div id="cx-list" class="bey-list"></div>
+
+                <div class="cx-line-separator"><span>CX LIMITED RELEASES</span></div>
+                <div id="cx-limited-list" class="bey-list"></div>
             </div>
-
-            <div class="bx-line-separator"><span>BX RELEASES</span></div>
-            <div class="bx-line-separator"><span>BX LIMITED RELEASES</span></div>
-            <div class="ux-line-separator"><span>UX RELEASES</span></div>
-            <div class="ux-line-separator"><span>UX LIMITED RELEASES</span></div>
-            <div class="cx-line-separator"><span>CX RELEASES</span></div>
-            <div class="cx-line-separator"><span>CX LIMITED RELEASES</span></div>
-        </div>
-        </div>
+    </div>
 
     <script>
         let beyData = [];
 
-        // Fetch the JSON file
-        fetch('beyxdb-0.1.json')
-            .then(response => {
-                if (!response.ok) throw new Error("JSON not found");
-                return response.json();
-            })
-            .then(data => {
-                // Filter out empty rows from Excel export
-                beyData = data.filter(bey => bey["bey-name"] && bey["bey-name"] !== "");
-                renderBeys(beyData); // Show all beys on start
-            })
-            .catch(err => console.error("Error loading database:", err));
+        // 1. Configuration: Maps Line Names to HTML Container IDs
+        const containers = {
+            'BX': { standard: 'bx-list', limited: 'bx-limited-list' },
+            'UX': { standard: 'ux-list', limited: 'ux-limited-list' },
+            'CX': { standard: 'cx-list', limited: 'cx-limited-list' }
+        };
 
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // Helper: Tries to load a file. If it fails (404), returns an empty list [] instead of crashing.
+            const safeFetch = (url) => fetch(url)
+                .then(res => {
+                    if (!res.ok) throw new Error(`Missing file: ${url}`);
+                    return res.json();
+                })
+                .catch(err => {
+                    console.warn(`Skipping ${url}:`, err.message); 
+                    return []; 
+                });
+
+            // 2. Load ALL Data Files
+            Promise.all([
+                safeFetch('releases/bx-release.json'),
+                safeFetch('releases/bx-limited-release.json'),
+                safeFetch('releases/ux-release.json'),
+                safeFetch('releases/ux-limited-release.json'),
+                safeFetch('releases/cx-release.json'),
+                safeFetch('releases/cx-limited-release.json')
+
+            ])
+            .then(([bxList, bxLimitedList, uxList, uxLimitedList, cxList, cxLimitedList]) => {
+                // Combine all files into one master list
+                const combinedData = [...bxList, ...bxLimitedList, ...uxList, ...uxLimitedList, ...cxList, ...cxLimitedList];
+                
+                // Filter out empty/broken entries
+                beyData = combinedData.filter(bey => bey["bey-name"] && bey["bey-name"].trim() !== "");
+                
+                // Run the main renderer
+                renderBeys(beyData);
+            });
+        });
+
+        /**
+         * Main Render Function: Sorts items into the correct columns
+         */
         function renderBeys(list) {
-            const resultsContainer = document.getElementById('searchResults');
-            resultsContainer.innerHTML = ""; 
+            // Clear all containers first
+            Object.values(containers).forEach(group => {
+                const std = document.getElementById(group.standard);
+                const lim = document.getElementById(group.limited);
+                if(std) std.innerHTML = "";
+                if(lim) lim.innerHTML = "";
+            });
 
             list.forEach(bey => {
-                // Handle CX-specific extra parts
-                let cxInfo = "";
-                if (bey["bey-line"] === "CX") {
-                    cxInfo = `
-                        <div class="cx-parts-detail">
-                            <span>L: ${bey["bey-lock"]}</span>
-                            <span>A: ${bey["bey-assist"]}</span>
-                        </div>`;
-                }
+                // LOGIC A: Where does it go?
+                // Use 'series' if provided (e.g., put a UX bey in the BX list). Default to 'bey-line'.
+                const sortCategory = bey["series"] || bey["bey-line"];
+                
+                // LOGIC B: Is it Limited?
+                // Checks if ID has "00" OR type is explicitly "Limited"
+                const isLimited = bey["bey-id"].includes("00") || (bey["bey-type"] === "Limited");
 
-                const cardHTML = `
-                    <div class="${bey["bey-line"].toLowerCase()}-bey-card">
-                        <div class="bey-img-box">
-                            <img src="${bey["large-bey-image"]}" class="large-bey-img" onerror="this.src='images/placeholder.png'">
-                        </div>
-                        <div class="bey-info">
-                            <span class="bey-id">${bey["bey-line"]}-${bey["bey-id"]}</span>
-                            <h3 class="bey-blade ${bey["bey-name"].length > 12 ? 'long-name' : ''}">${bey["bey-name"]}</h3>
-                            <p class="bey-parts">${bey["bey-ratchet"]} ${bey["bey-bit"]}</p>
-                            ${cxInfo}
-                            <span class="bey-line ${bey["bey-line"].toLowerCase()}-tag">${bey["bey-line"]} LINE</span>
-                        </div>
-                    </div>
-                `;
-                resultsContainer.innerHTML += cardHTML;
+                // LOGIC C: Generate Visuals
+                const cardHTML = createCardHTML(bey);
+
+                // LOGIC D: Append to the correct HTML Container
+                if (containers[sortCategory]) {
+                    const targetId = isLimited ? containers[sortCategory].limited : containers[sortCategory].standard;
+                    const container = document.getElementById(targetId);
+                    if (container) {
+                        container.innerHTML += cardHTML;
+                    }
+                }
             });
         }
 
+        /**
+         * Card Generator: Handles the Double Validation for ID Display
+         */
+        function createCardHTML(bey) {
+            const lineLower = bey["bey-line"].toLowerCase();
+            
+            // 1. Determine the Full Display Name FIRST
+            let fullName = bey["bey-name"];
+            if (bey["bey-line"] === "CX") {
+                // If CX, combine Lock + Name (e.g., "Sphinx Cowl")
+                const lock = bey["bey-lock"] || "";
+                fullName = `${lock} ${bey["bey-name"]}`.trim(); 
+            }
+
+            // 2. Now check the length of the FULL name
+            const isLongName = fullName.length > 15; 
+            const nameClass = isLongName ? 'long-name' : '';
+
+            // 3. Determine Display ID (Updated: Removed product-code check)
+            const displayID = bey["bey-id"];
+
+            // 4. CX Specific Return
+            if (bey["bey-line"] === "CX") {
+                return `
+                    <div class="${lineLower}-bey-card">
+                        <div class="bey-img-box">
+                            <img src="${bey["large-bey-image"]}" 
+                                class="large-bey-img" 
+                                alt="${fullName}"
+                                onerror="this.src='images/placeholder.png'">
+                        </div>
+                        <div class="bey-info">
+                            <span class="bey-id">${bey["series"] || bey["bey-line"]}-${displayID}</span>
+                            <h3 class="bey-blade ${nameClass}">${fullName}</h3>
+                            <p class="bey-assist">${bey["bey-assist"] || "-"}</p>
+                            <p class="bey-ratchet">${bey["bey-ratchet"]}</p>
+                            <p class="bey-bit">${bey["bey-bit"]}</p>
+                            <span class="bey-line ${lineLower}-tag">${bey["bey-line"]} LINE</span>
+                        </div>
+                    </div>`;
+            }
+
+            // 5. Standard Return (BX/UX)
+            return `
+                <div class="${lineLower}-bey-card">
+                    <div class="bey-img-box">
+                        <img src="${bey["large-bey-image"]}" 
+                            class="large-bey-img" 
+                            alt="${fullName}"
+                            onerror="this.src='images/placeholder.png'">
+                    </div>
+                    <div class="bey-info">
+                        <h2 class="bey-id">${bey["series"] || bey["bey-line"]}-${displayID}</h2>
+                        <h3 class="bey-blade ${nameClass}">${fullName}</h3>
+                        <p class="bey-ratchet">${bey["bey-ratchet"]}</p>
+                        <p class="bey-bit">${bey["bey-bit"]}</p>
+                        <span class="bey-line ${lineLower}-tag">${bey["bey-line"]} LINE</span>
+                    </div>
+                </div>`;
+        }
+
+        /* Search Functionality */
         function filterBeys() {
-            let input = document.getElementById('bladeSearch').value.toLowerCase();
+            const input = document.getElementById('bladeSearch').value.toLowerCase();
+            const searchResultsDiv = document.getElementById('searchResults');
+            
+            // Search logic: Checks Name, ID, or Product Code
             const filtered = beyData.filter(bey => 
                 bey["bey-name"].toLowerCase().includes(input) || 
                 bey["bey-id"].toLowerCase().includes(input)
             );
-            renderBeys(filtered);
+
+            if (input === "") {
+                searchResultsDiv.innerHTML = "";
+                searchResultsDiv.style.display = "none";
+                document.querySelector('.full-bey-section').style.display = "block";
+                renderBeys(beyData); 
+                return;
+            }
+
+            document.querySelector('.full-bey-section').style.display = "none";
+            searchResultsDiv.style.display = "flex";
+            searchResultsDiv.innerHTML = filtered.map(bey => createCardHTML(bey)).join('');
         }
     </script>
     </div>

@@ -8,13 +8,35 @@
 }
 
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #0a0a0c;
     color: #ffffff;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
 }
 
-/* Specific body for index/hub page */
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('fonts/Orbitron.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6,
+.nav-logo,
+.nav-item,           /* Keep nav links futuristic */
+.bey-line,           /* The "BX LINE" tags */
+.cover-title,
+.section-title,
+span {
+    font-family: 'Orbitron', sans-serif;
+}
+
 .hub-body {
     display: block; /* Overriding your previous flex alignment for the news layout */
     padding: 0;
@@ -72,14 +94,13 @@ body {
     overflow: hidden;
 }
 
-/* Gradient Hover Effect (Bottom to Top) */
 .nav-item:hover {
     color: #ffffff;
     background: linear-gradient(to top, rgba(255, 255, 255, 0.1), transparent);
 }
 
 /* ==========================================
-   NEW: COVER PHOTO SECTION
+   COVER PHOTO SECTION
    ========================================== */
 .cover-section {
     position: relative;
@@ -122,7 +143,6 @@ body {
     font-weight: bold;
 }
 
-/* Optional: Add a subtle glow at the bottom of the cover to transition to the news */
 .cover-section::after {
     content: '';
     position: absolute;
@@ -134,7 +154,6 @@ body {
     z-index: 1;
 }
 
-/* Adjust mobile layout for the cover */
 @media (max-width: 768px) {
     .cover-section {
         height: 250px;
@@ -164,7 +183,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* News Article Cards */
 .news-card {
     background: #141417;
     border: 1px solid #222;
@@ -209,7 +227,6 @@ body {
     color: #555;
 }
 
-/* Sidebar Boxes */
 .sidebar-box {
     background: #141417;
     padding: 25px;
@@ -236,17 +253,6 @@ body {
 .social-links a:hover {
     color: #fff;
     padding-left: 5px;
-}
-
-body {
-    font-family: 'Orbitron', sans-serif;
-    background-color: #0a0a0c;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    padding: 40px 20px;
 }
 
 .container {
@@ -288,11 +294,6 @@ body {
 /* ==========================================
    3. PARTS PAGE GRID (parts.html)
    ========================================== */
-.card-link {
-    text-decoration: none; /* Removes underline */
-    color: inherit;        /* Keeps your white/blue text colors */
-    display: block;        /* Makes sure the link covers the whole area */
-}
 
 .parts-grid, .cx-grid {
     display: flex;
@@ -326,20 +327,12 @@ body {
 .ratchet-card:hover { border-color: #39ff14; box-shadow: 0 0 20px rgba(57, 255, 20, 0.4); transform: translateY(-10px); }
 .bit-card:hover { border-color: #bc13fe; box-shadow: 0 0 20px rgba(188, 19, 254, 0.4); transform: translateY(-10px); }
 
-.cx-section{
+.cx-parts-section{
     width: 100%;
     text-align: center;
 }
 
-.cx-section-separator::before,
-.cx-section-separator::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid #333;
-    box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
-}
-
-.cx-section-separator {
+.cx-parts-section-separator {
     display: flex;
     align-items: center;
     text-align: center;
@@ -348,7 +341,15 @@ body {
     margin: 60px auto 30px;
 }
 
-.cx-section-separator span {
+.cx-parts-section-separator::before,
+.cx-parts-section-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+}
+
+.cx-parts-section-separator span {
     padding: 0 20px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -358,14 +359,14 @@ body {
     text-shadow: #ff2525 0 0 10px;
 }
 
-.assist-card:hover, .lock-card:hover {
+.cx-card:hover {
     border-color: #ff2525;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
     transform: translateY(-10px);
 }
 
 /* ==========================================
-   3.5 STADIUM CARD OVERRIDE
+   3.5 ACCESSORY SECTION (parts.html)
    ========================================== */
 .accessory-section{
     width: 100%;
@@ -399,15 +400,23 @@ body {
     text-shadow: 0 0 10px #ff6f61;
 }
 
-.stadium-card:hover, .launcher-card:hover {
+.accessory-card:hover {
     border-color: #ff6f61;
     box-shadow: 0 0 20px rgba(255, 111, 97, 0.4);
     transform: translateY(-10px);
 }
 
 /* ==========================================
-   4. BLADES PAGE & LISTS (Search + Rows)
+   SEARCH SECTION
    ========================================== */
+.search-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 #bladeSearch {
     width: 100%;
     max-width: 400px;
@@ -422,14 +431,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 212, 255, 0.1);
 }
 
-.search-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
 #searchResults {
     width: 100%;
     display: flex;
@@ -442,45 +443,8 @@ body {
     margin-bottom: 40px;
 }
 
-/* Hide the search results area entirely when it's empty */
 #searchResults:empty {
     display: none;
-}
-
-.category-block {
-    width: 100%;
-    margin-bottom: 40px;
-}
-
-.category-title {
-    text-align: left;
-    font-size: 1.1rem;
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-.blade-row {
-    display: flex;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.03);
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.blade-row:hover {
-    background: rgba(255, 255, 255, 0.07);
-    transform: translateX(5px);
-}
-
-.blade-img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    margin-right: 15px;
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
 }
 
 /* ==========================================
@@ -555,18 +519,27 @@ body {
     text-shadow: #ff2525 0 0 10px;
 }
 
-.bx-bey-card, .ux-bey-card, .cx-bey-card {
+.bx-bey-card,
+.ux-bey-card,
+.cx-bey-card,
+.ax-bey-card {
     background: #111114;
     border: 1px solid #333;
     border-radius: 20px;
     width: 280px;
-    height: 410px;
+    height: 480px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: 0.3s ease;
     text-align: center;
+}
+
+.ax-bey-card:hover {
+    border-color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(211, 211, 211, 0.2);
 }
 
 .bx-bey-card:hover {
@@ -608,19 +581,34 @@ body {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
 }
 
+.bey-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;   /* This forces the text area to fill all remaining empty space in the card */
+    width: 100%;
+    padding-top: 10px;
+}
+
 .bey-id {
     color: #666;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     letter-spacing: 2px;
     margin-bottom: 5px;
 }
 
+.bey-lock {
+    color: #aaa;
+    font-size: 1rem;
+    font-style: italic;
+}
+
 .bey-blade {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .long-name {
@@ -628,34 +616,22 @@ body {
     line-height: 1.2;
 }
 
-/* CX-SPECIFIC DETAILS (NEW) */
-.cx-parts-detail {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 15px;
-}
-
-.cx-parts-detail span {
-    font-size: 0.6rem;
-    background: rgba(255, 37, 37, 0.1);
-    color: #ff2525;
-    padding: 2px 6px;
-    border: 1px solid rgba(255, 37, 37, 0.3);
-    border-radius: 4px;
-    font-weight: bold;
+.bey-assist {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
 }
 
 .bey-ratchet {
     color: #fff;
     font-size: 1rem;
-    margin-bottom: auto;
+    margin-bottom: 5px;
 }
 
 .bey-bit {
-    color: #ffffffce;
+    color: #fff;
     font-size: 1rem;
-    margin-bottom: auto;
+    margin-bottom: 20px;
 }
 
 /*Tags*/
@@ -665,6 +641,7 @@ body {
     border-radius: 50px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: auto;
 }
 
 .bx-tag { background: rgba(0, 212, 255, 0.1); color: #00d4ff; border: 1px solid #00d4ff; }
